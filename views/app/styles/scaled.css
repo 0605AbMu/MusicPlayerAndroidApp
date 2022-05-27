@@ -1,0 +1,20 @@
+﻿
+/*!
+This file is part of DecSoft App Builder.
+Visit our website for license information.
+Copyright ©2022 DecSoft. All rights reserved.
+Visit our website at: https://www.decsoftutils.com/
+
+*/
+
+
+html, body { width: 320px; height: 480px; }
+
+#view1 #audio1 { position: absolute; top: 10.00%; left: 0.00%; width: 100.00%; height: 8.33%; }
+
+#view1 #range1 { position: absolute; top: 19.17%; left: 0.00%; width: 100.00%; height: 4.17%; }
+
+#view1 #select1 { position: absolute; top: 73.33%; left: 0.00%; width: 100.00%; height: 26.46%; }
+
+#view1 #textarea1 { position: absolute; top: 33.33%; left: 0.00%; width: 100.00%; height: 40.00%; }
+#view1 #button1 { position: absolute; top: 25.00%; left: 25.00%; width: 43.75%; height: 6.67%; }

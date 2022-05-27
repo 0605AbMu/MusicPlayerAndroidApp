@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "music player",
+  "app-name": "music player",
+  "package-name": "webview",
+  "project-type": "webview",
+  "icon": "./icon/icon.png",
+  "dist-path": "./dist",
+  "permission": [
+    "android.permission.INTERNET"
+  ],
+  "description": "",
+  "main": "main.js",
+  "project-name": "android object",
+  "theme": {
+    "fullScreen": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "androidjs": "^2.0.4",
+    "audio": "^1.2.0",
+    "play-sound": "^1.1.5"
+  }
+}

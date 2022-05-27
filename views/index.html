@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="" dir="">
+ <head>
+  <title></title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+   <meta http-equiv="Content-Security-Policy"
+    content="default-src * app: data: mediastream: blob: filesystem: cdvfile: ws: ms-appdata: ms-appx-web: gap: 'unsafe-inline' 'unsafe-eval';" />
+  <meta name="generator" content="DecSoft App Builder 2021.59 - https://www.decsoftutils.com/" />
+   <meta name="description" content="New App 1 - Another DecSoft App Builder app" />
+   <meta name="author" content="DecSoft App Builder - info@decsoftutils.com - https://www.decsoftutils.com/" />
+   <script src="app/scripts/androidjs.js" ></script>
+    
+  <link rel="apple-touch-icon" href="app/images/icon.png" />
+  <link rel="icon" type="image/png" href="app/images/icon.png" />
+  <link rel="shortcut icon" href="app/images/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" id="app-theme" href="app/styles/default.css" />
+  <link rel="stylesheet" type="text/css" id="app-style" href="app/styles/scaled.css" />  
+  <link rel="stylesheet" type="text/css" href="app/styles/shared.css" />
+  <link rel="stylesheet" type="text/css" href="app/styles/pluginscomps.css" />
+  
+ </head>
+ <body>
+  <keep-alive id="app">
+   <router-view v-bind:app="app">
+   </router-view>
+  </keep-alive>
+  <div id="dialogs">
+   <dab-alert v-bind:app="app"></dab-alert>
+   <dab-toasts v-bind:app="app"></dab-toasts>
+  </div>  
+  <div id="dab-sidebar-overlay"></div>
+  <script src="app/scripts/builder.min.js"></script>
+  
+  <script src="app/scripts/pluginscomps.js"></script>
+  <script src="app/scripts/applangs.js"></script>
+  <script src="app/scripts/app.js"></script>
+  <script src="cordova.js"></script>
+ </body>
+</html>
